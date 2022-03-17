@@ -48,15 +48,22 @@
     padding-top: 20px;
 }
 
-.colum-derecha-texts .colum-derecha-image-instrucciones{
+.colum-derecha-texts .colum-derecha-image-instrucciones {
     width: 100%;
     text-align: right;
+    position: relative;
 }
 
-.colum-derecha-texts .colum-derecha-image-instrucciones img:nth-child(1n){
+.colum-derecha-image-instrucciones-buttom {
+    position: absolute;
+    bottom: 15px;
+    right: 130px;
+}
+
+.colum-derecha-texts .colum-derecha-image-instrucciones img:nth-child(1n) {
     width: 90%;
 }
-.colum-derecha-texts .colum-derecha-image-instrucciones img:nth-child(2n){
+.colum-derecha-texts .colum-derecha-image-instrucciones img:nth-child(2n) {
     width: 12%;
 }
 
@@ -66,10 +73,10 @@
     padding-top: 30px;
 }
 
-.colum-derecha-botones-conceptos img{
+.colum-derecha-botones-conceptos img {
     margin-bottom: 30px;
 }
 
-.colum-derecha-botones-definiciones img{
+.colum-derecha-botones-definiciones img {
     margin-bottom: 10px;
 }
