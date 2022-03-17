@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
 }
-.instrucciones{
+.instrucciones {
     background-image: url(../images/Fondo.png);
     text-align: center;
     height: 100vh;
@@ -11,29 +11,48 @@
     background-repeat: no-repeat;
 }
 
-.instrucciones{
+.instrucciones {
     display: block;
 }
 
-.contador-container{
-    height: 100vh;
-}
-.contador-container .row{
-    height: 100vh;
-}
-
-.colum-izquerda-contador,
-.colum-derecha-instrucciones{
+.colum-izquerda-contador {
     display: flex;
-    height: 100%;
+    height: 100vh;
     align-items: end;
 }
 
-.colum-izquerda-image{
-    width: 100%;
-    background-color: red;
-}
-.colum-izquerda-image img{
+.colum-izquerda-image {
     width: 100%;
 }
 
+.colum-izquerda-image img {
+    width: 100%;
+}
+
+.colum-derecha-texts {
+    height: 40%;
+    padding-top: 20px;
+}
+
+.colum-derecha-texts .colum-derecha-image-instrucciones{
+    width: 100%;
+    text-align: right;
+}
+
+.colum-derecha-texts .colum-derecha-image-instrucciones img{
+    width: 90%;
+}
+
+.colum-derecha-botones {
+    height: 60%;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.colum-derecha-botones-conceptos img{
+    margin-bottom: 30px;
+}
+
+.colum-derecha-botones-definiciones img{
+    margin-bottom: 10px;
+}
