@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
 }
-.instucciones-container {
+.instrucciones{
     background-image: url(../images/Fondo.png);
     text-align: center;
     height: 100vh;
@@ -10,6 +10,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.instucciones-container {
+
+.instrucciones{
     display: block;
+}
+
+.colum-derecha-image img{
+    height: 200px;
+    
 }
