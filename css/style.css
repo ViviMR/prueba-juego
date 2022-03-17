@@ -15,7 +15,25 @@
     display: block;
 }
 
-.colum-derecha-image img{
-    height: 200px;
-    
+.contador-container{
+    height: 100vh;
 }
+.contador-container .row{
+    height: 100vh;
+}
+
+.colum-izquerda-contador,
+.colum-derecha-instrucciones{
+    display: flex;
+    height: 100%;
+    align-items: end;
+}
+
+.colum-izquerda-image{
+    width: 100%;
+    background-color: red;
+}
+.colum-izquerda-image img{
+    width: 100%;
+}
+
