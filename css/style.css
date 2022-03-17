@@ -2,6 +2,11 @@
     width: 100%;
     height: 100%;
 }
+
+.portada-container img:hover {
+    cursor: pointer;
+}
+
 .instrucciones,
 .proceso-admin,
 .planeacion,
@@ -59,7 +64,9 @@
     bottom: 15px;
     right: 130px;
 }
-
+.colum-derecha-image-instrucciones-buttom:hover {
+    cursor: pointer;
+}
 .colum-derecha-texts .colum-derecha-image-instrucciones img:nth-child(1n) {
     width: 90%;
 }
@@ -79,4 +86,12 @@
 
 .colum-derecha-botones-definiciones img {
     margin-bottom: 10px;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
