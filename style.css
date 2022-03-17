@@ -1,0 +1,14 @@
+.portada-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.instucciones-container {
+    display: block;
+    background-image: url(../prueba-juego/images/Fondo.png);
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
