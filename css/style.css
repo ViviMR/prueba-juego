@@ -84,8 +84,16 @@
     margin-bottom: 30px;
 }
 
+.colum-derecha-botones-conceptos-buttom:hover{
+    cursor: pointer;
+}
+
 .colum-derecha-botones-definiciones img {
     margin-bottom: 10px;
+}
+
+.colum-derecha-botones-definiciones-buttom:hover{
+    cursor: pointer;
 }
 
 .visible {
