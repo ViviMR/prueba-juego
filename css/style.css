@@ -50,7 +50,7 @@
 
 .colum-derecha-texts {
     height: 40%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .colum-derecha-texts .colum-derecha-image-instrucciones {
@@ -59,12 +59,12 @@
     position: relative;
 }
 
-.colum-derecha-image-instrucciones-buttom {
+.colum-derecha-image-instrucciones-button {
     position: absolute;
     bottom: 15px;
     right: 130px;
 }
-.colum-derecha-image-instrucciones-buttom:hover {
+.colum-derecha-image-instrucciones-button:hover {
     cursor: pointer;
 }
 .colum-derecha-texts .colum-derecha-image-instrucciones img:nth-child(1n) {
@@ -77,28 +77,28 @@
 .colum-derecha-botones {
     height: 60%;
     padding-left: 80px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .colum-derecha-botones-conceptos img {
     margin-bottom: 30px;
 }
 
-.colum-derecha-botones-conceptos-buttom:hover {
+.colum-derecha-botones-conceptos-button:hover {
     cursor: pointer;
 }
 .active {
     border: 1px solid white;
 }
 .button-planeacion:hover,
-.buttom-investigacion:hover {
+.button-investigacion:hover {
     border: 1px solid white;
 }
 .colum-derecha-botones-definiciones img {
     margin-bottom: 10px;
 }
 
-.colum-derecha-botones-definiciones-buttom:hover {
+.colum-derecha-botones-definiciones-button:hover {
     cursor: pointer;
 }
 
