@@ -84,15 +84,21 @@
     margin-bottom: 30px;
 }
 
-.colum-derecha-botones-conceptos-buttom:hover{
+.colum-derecha-botones-conceptos-buttom:hover {
     cursor: pointer;
 }
-
+.active {
+    border: 1px solid white;
+}
+.button-planeacion:hover,
+.buttom-investigacion:hover {
+    border: 1px solid white;
+}
 .colum-derecha-botones-definiciones img {
     margin-bottom: 10px;
 }
 
-.colum-derecha-botones-definiciones-buttom:hover{
+.colum-derecha-botones-definiciones-buttom:hover {
     cursor: pointer;
 }
 

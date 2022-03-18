@@ -25,16 +25,37 @@ window.addEventListener('DOMContentLoaded', () => {
     let botonPaso3 = document.querySelector('#paso3 .colum-derecha-image-instrucciones-buttom')
 
     botonPaso3.addEventListener('click', () => {
-        
+
         document.querySelector('#paso3').classList.remove('visible')
         document.querySelector('#paso3').classList.add('hidden')
         document.querySelector('#paso4').classList.remove('hidden')
         document.querySelector('#paso4').classList.add('visible')
-        
+
     })
 
-    /* Click del paso 4 al paso 4-1 */
+    /* Paso 4*/
 
-    let botonPaso4 =document.querySelector('#paso.4 ')
+    let botonPlaneacion = document.querySelector('.button-planeacion')
+    let botonInvestigacion = document.querySelector('.buttom-investigacion')
+    let validadorPaso4 = false
+
+    botonPlaneacion.addEventListener('click', () => {
+        botonPlaneacion.classList.add('active')
+        validadorPaso4 = true
+    })
+
+    botonInvestigacion.addEventListener('click', () => {
+        if (validadorPaso4 == false) {
+            //no se hace nada
+        }
+        else {
+            botonInvestigacion.classList.add('active')
+            document.querySelector('#paso4').classList.remove('visible')
+            document.querySelector('#paso4').classList.add('hidden')
+            document.querySelector('#paso5').classList.remove('hidden')
+            document.querySelector('#paso5').classList.add('visible')
+        }
+
+    })
 
 })
